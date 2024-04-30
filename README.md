@@ -1,6 +1,6 @@
 # About
 
-A small shell script to simplify the tree command.
+A small shell script to add shorthand for the tree command.
 
 Requires having [tree](https://github.com/Old-Man-Programmer/tree) installed.
 
@@ -18,8 +18,8 @@ ln -s /path/to/lt /usr/local/bin/lt
 
 `lt` to list current directory (1 level).
 
-`lt <level>` to list in n levels.
+`lt <n>` to list in `n` levels.
 
 `lt a` to list all entries in current directory (1 level).
 
-`lt a<level>` to list all entries in n levels.
+`lt a<n>` to list all entries in `n` levels.
