@@ -6,7 +6,7 @@ Requires having [tree](https://github.com/Old-Man-Programmer/tree) installed.
 
 # Installation
 
-Download `lt` and move add it to your PATH.
+Download `lt` and add it to your PATH.
 
 Alternatively, create a symbolic link to run it as a shell command:
 
