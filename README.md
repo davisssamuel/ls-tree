@@ -18,7 +18,7 @@ ln -s /path/to/lt /usr/local/bin/lt
 
 `lt` to list current directory (1 level).
 
-`lt <n>` to list in `n` levels.
+`lt <n>` to list `n` levels.
 
 `lt a` to list all entries in current directory (1 level).
 
