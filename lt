@@ -2,11 +2,11 @@
 
 if [[ $# -lt 1 ]]; then
   tree -L 1
-elif [[ $# -ge 1 ]] && [[ $1 =~ ^a$ ]]; then
+elif [[ $# -eq 1 ]] && [[ $1 =~ ^a$ ]]; then
   tree -aL 1
-elif [[ $# -ge 1 ]] && [[ $1 =~ ^[0-9]$ ]]; then 
+elif [[ $# -eq 1 ]] && [[ $1 =~ ^[0-9]$ ]]; then 
   tree -L $1
-elif [[ $# -ge 1 ]] && [[ $1 =~ ^a[0-9]$|^[0-9]a$ ]]; then
+elif [[ $# -eq 1 ]] && [[ $1 =~ ^a[0-9]$|^[0-9]a$ ]]; then
   tree -aL ${1//a/}
 else 
   echo "lt: invalid argument"
