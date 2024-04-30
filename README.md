@@ -1,4 +1,4 @@
-# ls tree
+# About
 
 A small shell script to simplify the tree command.
 
