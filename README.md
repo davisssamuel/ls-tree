@@ -1,6 +1,6 @@
 # About
 
-A small shell script to add shorthand for the tree command.
+A small shell script to add a shorthand for the tree command.
 
 Requires having [tree](https://github.com/Old-Man-Programmer/tree) installed.
 
