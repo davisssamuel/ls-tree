@@ -2,7 +2,7 @@
 
 A small shell script to simplify the tree command.
 
-Requires having [tree](https://github.com/Old-Man-Programmer/tree) installed
+Requires having [tree](https://github.com/Old-Man-Programmer/tree) installed.
 
 # Installation
 
